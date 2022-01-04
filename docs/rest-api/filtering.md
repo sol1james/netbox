@@ -52,7 +52,7 @@ Custom fields can be mixed with built-in fields to further narrow results. When 
 
 ## Lookup Expressions
 
-Certain model fields also support filtering using additional lookup expressions. This allows
+Certain model fields (including custom fields as of Netbox 3.1.0) also support filtering using additional lookup expressions. This allows
 for negation and other context-specific filtering.
 
 These lookup expressions can be applied by adding a suffix to the desired field's name, e.g. `mac_address__n`. In this case, the filter expression is for negation and it is separated by two underscores. Below are the lookup expressions that are supported across different field types.
